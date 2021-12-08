@@ -1,0 +1,35 @@
+.cls-login {
+  /* max-width: 100%;
+  min-width: 100%;
+  width: 100%; */
+  max-width: 100%;
+  position: relative;
+  margin: 0;
+
+  h1 {
+    text-align: start;
+  }
+  //Me faltaba el punto
+  .cls-container-form {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  .cls-image-bg {
+    /* position: absolute; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    //z-index solo funciona si esta declarado el atributo position
+    z-index: -1;
+  }
+}

@@ -1,0 +1,17 @@
+<div class="d-flex flex-wrap flex-row bd-highlight mb-3">
+  <div *ngFor="let item of listaProgramas" class="card m-3" style="width: 18rem">
+    <img src="../../assets/images/logo.jpg" class="card-img-top w-50" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">{{item.programa}}</h5>
+      <p class="card-text">
+        SNIES: {{item.registroICFES}}
+        <br>
+        Duración (periodos): {{item.duracion}}  
+      </p>
+      
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    </div>
+  </div>
+
+
+</div>
